@@ -1,6 +1,6 @@
 # MovieStoreApi
 
-API with 4 entitys: Orders,Movie,Buyer,Director
+Spring Boot API with 4 entitys: Orders,Movie,Buyer,Director
 
 all crud-operations working
 
