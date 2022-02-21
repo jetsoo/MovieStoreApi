@@ -1,3 +1,3 @@
 # MovieStoreApi
 
-with 4 entitys: Orders,Movie,Buyer,Director
+API with 4 entitys: Orders,Movie,Buyer,Director
