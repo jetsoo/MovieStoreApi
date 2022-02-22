@@ -1,4 +1,4 @@
-package com.example.Moviestore.Buyer;
+package com.example.Moviestore.Entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

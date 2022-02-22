@@ -1,11 +1,11 @@
 package com.example.Moviestore;
 
-import com.example.Moviestore.Buyer.Buyer;
-import com.example.Moviestore.Buyer.BuyerRepository;
-import com.example.Moviestore.Director.Director;
-import com.example.Moviestore.Director.DirectorRepository;
-import com.example.Moviestore.Movie.Movie;
-import com.example.Moviestore.Movie.MovieRepository;
+import com.example.Moviestore.Entity.Buyer;
+import com.example.Moviestore.Repository.BuyerRepository;
+import com.example.Moviestore.Entity.Director;
+import com.example.Moviestore.Repository.DirectorRepository;
+import com.example.Moviestore.Entity.Movie;
+import com.example.Moviestore.Repository.MovieRepository;
 import com.example.Moviestore.Orders.Order;
 import com.example.Moviestore.Orders.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,5 +1,6 @@
-package com.example.Moviestore.Director;
+package com.example.Moviestore.Controller;
 
+import com.example.Moviestore.Entity.Director;
 import com.example.Moviestore.MovieStoreService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

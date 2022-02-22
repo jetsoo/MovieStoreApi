@@ -1,5 +1,6 @@
-package com.example.Moviestore.Buyer;
+package com.example.Moviestore.Repository;
 
+import com.example.Moviestore.Entity.Buyer;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
