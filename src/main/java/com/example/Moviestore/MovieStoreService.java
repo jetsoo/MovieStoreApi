@@ -6,8 +6,8 @@ import com.example.Moviestore.Entity.Director;
 import com.example.Moviestore.Repository.DirectorRepository;
 import com.example.Moviestore.Entity.Movie;
 import com.example.Moviestore.Repository.MovieRepository;
-import com.example.Moviestore.Orders.Order;
-import com.example.Moviestore.Orders.OrderRepository;
+import com.example.Moviestore.Entity.Order;
+import com.example.Moviestore.Repository.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
@@ -240,8 +240,7 @@ public class MovieStoreService {
             throw new ResponseStatusException(HttpStatus.NOT_FOUND,"Order with given id not found");
         }
         else{
-            Order orderToUpdate = orderOptional.get();
-            orderToUpdate = order;
+            Order orderToUpdate = order;
             this.orderRepository.save(orderToUpdate);
         }
     }
